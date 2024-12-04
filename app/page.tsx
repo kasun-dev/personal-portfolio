@@ -8,7 +8,7 @@ function Page() {
       <header className="flex items-center w-full mt-3 px-5">
         {/* Logo Image */}
         <Image 
-          src="/logo.png" 
+          src="./logo.png" 
           width={40} 
           height={40} 
           alt="logo image" 
@@ -24,7 +24,7 @@ function Page() {
             <div className="flex flex-row items-center cursor-pointer">
               <Link href="#more">more</Link>
               <Image 
-                src="/downarrow.png" 
+                src="./downarrow.png" 
                 width={8} 
                 height={8} 
                 alt="downarrow" 
